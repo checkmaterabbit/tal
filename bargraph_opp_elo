@@ -1,5 +1,5 @@
 >data <- filter(tal, Black == "manshuv") 
 >ggplot(data, aes(x=WhiteElo)) + 
-+    geom_histogram(fill="skyblue", alpha=0.5) +
++    geom_bar(fill="skyblue", alpha=0.5) +
 +    ggtitle("White's Opening Move") +
 +    theme_minimal()
